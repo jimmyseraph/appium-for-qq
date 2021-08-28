@@ -52,8 +52,8 @@ public class QQDemoTest {
         // 执行登录操作
         driver.findElementById("com.tencent.qqlite:id/dialogRightBtn").click();
         driver.findElementById("com.tencent.qqlite:id/btn_login").click();
-        driver.findElementByAccessibilityId("请输入QQ号码或手机或邮箱").sendKeys("2239416171");
-        driver.findElementByAccessibilityId("请输入密码").sendKeys("panda230013");
+        driver.findElementByAccessibilityId("请输入QQ号码或手机或邮箱").sendKeys("1234567");
+        driver.findElementByAccessibilityId("请输入密码").sendKeys("1234567");
         driver.findElementById("com.tencent.qqlite:id/login").click();
         try {
             Thread.sleep(5000); // 这个等待，只是为了暂停一下，可以看清楚操作之后的界面，没有实际意义
